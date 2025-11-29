@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone 1 - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Joti+One&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        .libre-bodoni-h {
+            font-family: "Libre Bodoni", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .libre-bodoni-p {
+            font-family: "Libre Bodoni", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .resume-container {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: 1fr;
+            border: 1px solid black;
+            max-width: 1000px;
+            min-width: 610px;
+            padding: 3.5rem;
+            box-sizing: border-box;
+        }
+        .resume-h1 {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+        .resume-h2 {
+            margin: 8px 0px;
+        }
+        .resume-h2-decoration {
+            padding: 5px;
+            background-color: rgba(25, 224, 231, 0.25);
+            border-radius: 10px;
+        }
+        .resume-section-divider {
+            display: flex;
+        }
+        .resume-half-section {
+            width: 50%;
+        }
+        .resume-contact-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0px 0px;
+        }
+        .resume-profile-picture {
+            border-radius: 50%;
+        }
+        .item-centering {
+            display: flex;
+            justify-content: center;
+        }
+        .job-title {
+            font-size: 1.25rem;
+        }
+        @media (max-width: 778px) {
+            .resume-profile-picture {
+                height: 75%;
+            }
+        }
+        @media (max-width: 725px) {
+            .resume-profile-picture {
+                height: 68%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container libre-bodoni-h">
+        <div class="resume-section-divider">
+            <div class="resume-half-section">
+                <div>
+                    <h1 class="resume-h1 libre-bodoni-h">Jeffrey Scott</h1>
+                    <h2 class="resume-h2">Full Stack Web Developer</h2>
+                </div>
+                <div>
+                    <ul class="resume-contact-list">
+                        <li>Kalispell, MT 59901</li>
+                        <li><a href="https://github.com/Fra6out">GitHub Page</a></li>
+                        <li>Mobile: (555) 555-6759</li>
+                        <li>Email: hoops_555@yahoo.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="resume-half-section item-centering">
+                <img src="./assets/images/profile-picture.jpg" alt="Profile picture of Jeffrey Scott with a largemouth bass." class="resume-profile-picture" />
+            </div>
+        </div>
+        <div>
+            <h2 class="resume-h2"><span class="resume-h2-decoration">Summary</span></h2>
+            <hr />
+            <p style="margin-bottom: 0;">Bacon ipsum dolor amet frankfurter doner pork chop ball tip brisket shoulder shankle. Strip steak filet mignon jerky venison picanha tail ribeye corned beef kielbasa. Kevin pork loin corned beef, bacon chislic turducken porchetta kielbasa meatball ribeye beef frankfurter brisket alcatra chuck. Alcatra swine tenderloin jerky burgdoggen drumstick pork beef ribs picanha rump doner hamburger turducken. Fatback bresaola frankfurter chuck sirloin tri-tip, brisket cupim capicola. Sirloin venison t-bone corned beef picanha, tongue ham hock meatball pork loin swine strip steak.</p>
+        </div>
+        <div>
+            <h2 class="resume-h2"><span class="resume-h2-decoration">Core Competencies</span></h2>
+            <hr />
+            <div class="resume-section-divider">
+                <div class="resume-half-section">
+                    <ul>
+                        <li>Content Content Content</li>
+                        <li>Content Content Content</li>
+                        <li>Content Content Content</li>
+                    </ul>
+                </div>
+                <div class="resume-half-section">
+                    <ul>
+                        <li>Content Content Content</li>
+                        <li>Content Content Content</li>
+                        <li>Content Content Content</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="resume-h2"><span class="resume-h2-decoration">Work Experience</span></h2>
+            <hr />
+            <ul>
+                <li>
+                    <div class="resume-section-divider" style="justify-content: space-between;">
+                        <div><p><span class="job-title">United States Marine Corps</span><br /> Light Armored Vehicle Crewman</p></div>
+                        <div style="text-align: right;"><p>Camp Pendleton, CA<br /> September 2008 - September 2013</p></div>
+                    </div>   
+                    <ul>
+                        <li>Responsibility</li>
+                        <li>Responsibility</li>
+                        <li>Responsibility</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="resume-section-divider" style="justify-content: space-between;">
+                        <div><p><span class="job-title">United States Marine Corps</span><br /> Light Armored Vehicle Crewman</p></div>
+                        <div style="text-align: right;"><p>Camp Pendleton, CA<br /> September 2008 - September 2013</p></div>
+                    </div>   
+                    <ul>
+                        <li>Responsibility</li>
+                        <li>Responsibility</li>
+                        <li>Responsibility</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="resume-h2"><span class="resume-h2-decoration">Education</span></h2>
+            <hr />
+            <div class="resume-section-divider" style="justify-content: space-between;">
+                <div><p><span class="job-title">Post Falls High School</span></p></div>
+                <div style="text-align: right;"><p>Post Falls, ID<br /> September 2004 - May 2008</p></div>
+            </div> 
+            <div class="resume-section-divider" style="justify-content: space-between;">
+                <div><p><span class="job-title">University of Idaho</span><br /> General Chemistry</p></div>
+                <div style="text-align: right;"><p>Moscow, ID<br /> September 2013 - May 2017</p></div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
